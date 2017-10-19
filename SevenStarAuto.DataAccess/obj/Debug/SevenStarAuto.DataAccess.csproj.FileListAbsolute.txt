@@ -1,0 +1,7 @@
+D:\codeproject\七星出货系统\SevenStarAutoSell\trunk\05-Code\SevenStarAutoSell\SevenStarAuto.DataAccess\bin\Debug\SevenStarAutoSell.DataAccess.dll
+D:\codeproject\七星出货系统\SevenStarAutoSell\trunk\05-Code\SevenStarAutoSell\SevenStarAuto.DataAccess\bin\Debug\SevenStarAutoSell.DataAccess.pdb
+D:\codeproject\七星出货系统\SevenStarAutoSell\trunk\05-Code\SevenStarAutoSell\SevenStarAuto.DataAccess\bin\Debug\Framework.DataAccess.dll
+D:\codeproject\七星出货系统\SevenStarAutoSell\trunk\05-Code\SevenStarAutoSell\SevenStarAuto.DataAccess\bin\Debug\MySql.Data.dll
+D:\codeproject\七星出货系统\SevenStarAutoSell\trunk\05-Code\SevenStarAutoSell\SevenStarAuto.DataAccess\obj\Debug\SevenStarAuto.DataAccess.csprojResolveAssemblyReference.cache
+D:\codeproject\七星出货系统\SevenStarAutoSell\trunk\05-Code\SevenStarAutoSell\SevenStarAuto.DataAccess\obj\Debug\SevenStarAutoSell.DataAccess.dll
+D:\codeproject\七星出货系统\SevenStarAutoSell\trunk\05-Code\SevenStarAutoSell\SevenStarAuto.DataAccess\obj\Debug\SevenStarAutoSell.DataAccess.pdb

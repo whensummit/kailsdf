@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E43168D9-ED63-45F1-BA9D-53674FDF65E6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SevenStarAutoSell.Business.Web.Dfv168</RootNamespace>
+    <AssemblyName>SevenStarAutoSell.Business.Web.Dfv168</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\HttpClient.cs" />
+    <Compile Include="Model\AccountInformation.cs" />
+    <Compile Include="Model\BaseMessage.cs" />
+    <Compile Include="Model\BatchOrder.cs" />
+    <Compile Include="Model\BatchOrderDeleteResult.cs" />
+    <Compile Include="Model\BatchOrderResult.cs" />
+    <Compile Include="Model\FailType.cs" />
+    <Compile Include="Model\LoginToken.cs" />
+    <Compile Include="Model\QueryInformation.cs" />
+    <Compile Include="Model\SingleOrder.cs" />
+    <Compile Include="Model\SingleOrderDelete.cs" />
+    <Compile Include="Model\SingleOrderResult.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\QiXingdfv168Adapter.cs" />
+    <Compile Include="Service\ScriptEngine.cs" />
+    <Compile Include="Service\Scripts.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Scripts.resx</DependentUpon>
+    </Compile>
+    <Compile Include="WebAdapter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\SevenStarAutoSell.Common\SevenStarAutoSell.Common.csproj">
+      <Project>{d7335e69-1197-4a04-baed-9ed8b6f474b8}</Project>
+      <Name>SevenStarAutoSell.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SevenStarAutoSell.Contract\SevenStarAutoSell.Contract.csproj">
+      <Project>{dab546f2-160e-4258-8c00-f5b2ef549075}</Project>
+      <Name>SevenStarAutoSell.Contract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SevenStarAutoSell.Model\SevenStarAutoSell.Model.csproj">
+      <Project>{80fea23f-dfa1-426b-9415-24f0022b87c7}</Project>
+      <Name>SevenStarAutoSell.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Service\Scripts.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Scripts.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MSScriptControl">
+      <Guid>{0E59F1D2-1FBE-11D0-8FF2-00A0D10038BC}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jsbn.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prng4.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rng.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsa.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

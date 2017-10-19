@@ -1,0 +1,1 @@
+D:\codeproject\七星出货系统\SevenStarAutoSell\trunk\05-Code\SevenStarAutoSell\SevenStarAutoSell.Client\bin\Release\SevenStarAutoSell.Client.exe.config

@@ -1,0 +1,92 @@
+2017-10-06 14:15:49,454 RequestSendReceive 异常：   在 SevenStarAutoSell.Common.Extensions.NetMQExtension.RequestSendReceive[T](RequestSocket socket, IdKeyData ikd) 位置 D:\codeproject\七星出货系统\SevenStarAutoSell\trunk\05-Code\SevenStarAutoSell\SevenStarAutoSell.Common\Extensions\NetMQExtension.cs:行号 94
+
+2017-10-06 14:15:50,374 RequestSendReceive 异常：   在 NetMQ.Core.Patterns.Req.XSend(Msg& msg)
+   在 NetMQ.Core.SocketBase.TrySend(Msg& msg, TimeSpan timeout, Boolean more)
+   在 NetMQ.NetMQSocket.TrySend(Msg& msg, TimeSpan timeout, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.Send(IOutgoingSocket socket, Msg& msg, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.SendFrame(IOutgoingSocket socket, String message, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.SendMoreFrame(IOutgoingSocket socket, String message)
+   在 SevenStarAutoSell.Common.Extensions.NetMQExtension.RequestSendReceive[T](RequestSocket socket, IdKeyData ikd) 位置 D:\codeproject\七星出货系统\SevenStarAutoSell\trunk\05-Code\SevenStarAutoSell\SevenStarAutoSell.Common\Extensions\NetMQExtension.cs:行号 79
+
+2017-10-06 14:15:51,482 RequestSendReceive 异常：   在 NetMQ.Core.Patterns.Req.XSend(Msg& msg)
+   在 NetMQ.Core.SocketBase.TrySend(Msg& msg, TimeSpan timeout, Boolean more)
+   在 NetMQ.NetMQSocket.TrySend(Msg& msg, TimeSpan timeout, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.Send(IOutgoingSocket socket, Msg& msg, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.SendFrame(IOutgoingSocket socket, String message, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.SendMoreFrame(IOutgoingSocket socket, String message)
+   在 SevenStarAutoSell.Common.Extensions.NetMQExtension.RequestSendReceive[T](RequestSocket socket, IdKeyData ikd) 位置 D:\codeproject\七星出货系统\SevenStarAutoSell\trunk\05-Code\SevenStarAutoSell\SevenStarAutoSell.Common\Extensions\NetMQExtension.cs:行号 79
+
+2017-10-06 14:15:53,500 RequestSendReceive 异常：   在 NetMQ.Core.Patterns.Req.XSend(Msg& msg)
+   在 NetMQ.Core.SocketBase.TrySend(Msg& msg, TimeSpan timeout, Boolean more)
+   在 NetMQ.NetMQSocket.TrySend(Msg& msg, TimeSpan timeout, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.Send(IOutgoingSocket socket, Msg& msg, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.SendFrame(IOutgoingSocket socket, String message, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.SendMoreFrame(IOutgoingSocket socket, String message)
+   在 SevenStarAutoSell.Common.Extensions.NetMQExtension.RequestSendReceive[T](RequestSocket socket, IdKeyData ikd) 位置 D:\codeproject\七星出货系统\SevenStarAutoSell\trunk\05-Code\SevenStarAutoSell\SevenStarAutoSell.Common\Extensions\NetMQExtension.cs:行号 79
+
+2017-10-06 14:15:55,525 RequestSendReceive 异常：   在 NetMQ.Core.Patterns.Req.XSend(Msg& msg)
+   在 NetMQ.Core.SocketBase.TrySend(Msg& msg, TimeSpan timeout, Boolean more)
+   在 NetMQ.NetMQSocket.TrySend(Msg& msg, TimeSpan timeout, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.Send(IOutgoingSocket socket, Msg& msg, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.SendFrame(IOutgoingSocket socket, String message, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.SendMoreFrame(IOutgoingSocket socket, String message)
+   在 SevenStarAutoSell.Common.Extensions.NetMQExtension.RequestSendReceive[T](RequestSocket socket, IdKeyData ikd) 位置 D:\codeproject\七星出货系统\SevenStarAutoSell\trunk\05-Code\SevenStarAutoSell\SevenStarAutoSell.Common\Extensions\NetMQExtension.cs:行号 79
+
+2017-10-06 14:15:57,546 RequestSendReceive 异常：   在 NetMQ.Core.Patterns.Req.XSend(Msg& msg)
+   在 NetMQ.Core.SocketBase.TrySend(Msg& msg, TimeSpan timeout, Boolean more)
+   在 NetMQ.NetMQSocket.TrySend(Msg& msg, TimeSpan timeout, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.Send(IOutgoingSocket socket, Msg& msg, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.SendFrame(IOutgoingSocket socket, String message, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.SendMoreFrame(IOutgoingSocket socket, String message)
+   在 SevenStarAutoSell.Common.Extensions.NetMQExtension.RequestSendReceive[T](RequestSocket socket, IdKeyData ikd) 位置 D:\codeproject\七星出货系统\SevenStarAutoSell\trunk\05-Code\SevenStarAutoSell\SevenStarAutoSell.Common\Extensions\NetMQExtension.cs:行号 79
+
+2017-10-06 14:16:32,385 RequestSendReceive 异常：   在 NetMQ.Core.Patterns.Req.XSend(Msg& msg)
+   在 NetMQ.Core.SocketBase.TrySend(Msg& msg, TimeSpan timeout, Boolean more)
+   在 NetMQ.NetMQSocket.TrySend(Msg& msg, TimeSpan timeout, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.Send(IOutgoingSocket socket, Msg& msg, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.SendFrame(IOutgoingSocket socket, String message, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.SendMoreFrame(IOutgoingSocket socket, String message)
+   在 SevenStarAutoSell.Common.Extensions.NetMQExtension.RequestSendReceive[T](RequestSocket socket, IdKeyData ikd) 位置 D:\codeproject\七星出货系统\SevenStarAutoSell\trunk\05-Code\SevenStarAutoSell\SevenStarAutoSell.Common\Extensions\NetMQExtension.cs:行号 79
+
+2017-10-06 14:20:45,089 RequestSendReceive 异常：   在 NetMQ.Core.Patterns.Req.XSend(Msg& msg)
+   在 NetMQ.Core.SocketBase.TrySend(Msg& msg, TimeSpan timeout, Boolean more)
+   在 NetMQ.NetMQSocket.TrySend(Msg& msg, TimeSpan timeout, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.Send(IOutgoingSocket socket, Msg& msg, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.SendFrame(IOutgoingSocket socket, String message, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.SendMoreFrame(IOutgoingSocket socket, String message)
+   在 SevenStarAutoSell.Common.Extensions.NetMQExtension.RequestSendReceive[T](RequestSocket socket, IdKeyData ikd) 位置 D:\codeproject\七星出货系统\SevenStarAutoSell\trunk\05-Code\SevenStarAutoSell\SevenStarAutoSell.Common\Extensions\NetMQExtension.cs:行号 79
+
+2017-10-06 14:20:45,090 RequestSendReceive 异常：   在 SevenStarAutoSell.Common.Extensions.NetMQExtension.RequestSendReceive[T](RequestSocket socket, IdKeyData ikd) 位置 D:\codeproject\七星出货系统\SevenStarAutoSell\trunk\05-Code\SevenStarAutoSell\SevenStarAutoSell.Common\Extensions\NetMQExtension.cs:行号 94
+
+2017-10-06 14:20:47,164 RequestSendReceive 异常：   在 NetMQ.Core.Patterns.Req.XSend(Msg& msg)
+   在 NetMQ.Core.SocketBase.TrySend(Msg& msg, TimeSpan timeout, Boolean more)
+   在 NetMQ.NetMQSocket.TrySend(Msg& msg, TimeSpan timeout, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.Send(IOutgoingSocket socket, Msg& msg, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.SendFrame(IOutgoingSocket socket, String message, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.SendMoreFrame(IOutgoingSocket socket, String message)
+   在 SevenStarAutoSell.Common.Extensions.NetMQExtension.RequestSendReceive[T](RequestSocket socket, IdKeyData ikd) 位置 D:\codeproject\七星出货系统\SevenStarAutoSell\trunk\05-Code\SevenStarAutoSell\SevenStarAutoSell.Common\Extensions\NetMQExtension.cs:行号 79
+
+2017-10-06 14:20:49,594 RequestSendReceive 异常：   在 NetMQ.Core.Patterns.Req.XSend(Msg& msg)
+   在 NetMQ.Core.SocketBase.TrySend(Msg& msg, TimeSpan timeout, Boolean more)
+   在 NetMQ.NetMQSocket.TrySend(Msg& msg, TimeSpan timeout, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.Send(IOutgoingSocket socket, Msg& msg, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.SendFrame(IOutgoingSocket socket, String message, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.SendMoreFrame(IOutgoingSocket socket, String message)
+   在 SevenStarAutoSell.Common.Extensions.NetMQExtension.RequestSendReceive[T](RequestSocket socket, IdKeyData ikd) 位置 D:\codeproject\七星出货系统\SevenStarAutoSell\trunk\05-Code\SevenStarAutoSell\SevenStarAutoSell.Common\Extensions\NetMQExtension.cs:行号 79
+
+2017-10-06 14:20:51,618 RequestSendReceive 异常：   在 NetMQ.Core.Patterns.Req.XSend(Msg& msg)
+   在 NetMQ.Core.SocketBase.TrySend(Msg& msg, TimeSpan timeout, Boolean more)
+   在 NetMQ.NetMQSocket.TrySend(Msg& msg, TimeSpan timeout, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.Send(IOutgoingSocket socket, Msg& msg, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.SendFrame(IOutgoingSocket socket, String message, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.SendMoreFrame(IOutgoingSocket socket, String message)
+   在 SevenStarAutoSell.Common.Extensions.NetMQExtension.RequestSendReceive[T](RequestSocket socket, IdKeyData ikd) 位置 D:\codeproject\七星出货系统\SevenStarAutoSell\trunk\05-Code\SevenStarAutoSell\SevenStarAutoSell.Common\Extensions\NetMQExtension.cs:行号 79
+
+2017-10-06 14:20:53,636 RequestSendReceive 异常：   在 NetMQ.Core.Patterns.Req.XSend(Msg& msg)
+   在 NetMQ.Core.SocketBase.TrySend(Msg& msg, TimeSpan timeout, Boolean more)
+   在 NetMQ.NetMQSocket.TrySend(Msg& msg, TimeSpan timeout, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.Send(IOutgoingSocket socket, Msg& msg, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.SendFrame(IOutgoingSocket socket, String message, Boolean more)
+   在 NetMQ.OutgoingSocketExtensions.SendMoreFrame(IOutgoingSocket socket, String message)
+   在 SevenStarAutoSell.Common.Extensions.NetMQExtension.RequestSendReceive[T](RequestSocket socket, IdKeyData ikd) 位置 D:\codeproject\七星出货系统\SevenStarAutoSell\trunk\05-Code\SevenStarAutoSell\SevenStarAutoSell.Common\Extensions\NetMQExtension.cs:行号 79
+
